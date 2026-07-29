@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics="">
+<title>Simama Ngidi — Actuarial Honours Student, Aspiring Actuary</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;font-family:'Instrument Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:hover{color:#35618f}
+*{box-sizing:border-box}
+[data-shell]{display:grid;grid-template-columns:minmax(300px,340px) 1fr}
+[data-panel]{position:sticky;top:0;max-height:100vh;overflow-y:auto;overscroll-behavior:contain}
+@media (max-width:900px){
+[data-shell]{grid-template-columns:1fr}
+[data-panel]{position:static;max-height:none;overflow-y:visible}
+[data-two]{grid-template-columns:1fr !important}
+[data-four]{grid-template-columns:1fr 1fr !important}
+}
+@media (max-width:620px){
+[data-four]{grid-template-columns:1fr !important}
+[data-metrics]{grid-template-columns:1fr !important}
+[data-cert]{grid-template-columns:1fr auto !important}
+[data-cert]>div{grid-column:1/-1}
+}
+</style>
+</helmet>
+
+<div data-shell="" data-screen-label="Profile" style="background:#fff;color:#16191d;min-height:100vh">
+
+<aside style="background:#0f1e33;color:#fff">
+<div data-panel="" style="padding:36px 32px;display:flex;flex-direction:column;gap:24px">
+<div>
+<img src="uploads/IMG-20260206-WA0001.jpg" alt="Simama Ngidi" style="display:block;width:100%;aspect-ratio:1/0.78;object-fit:cover;object-position:55% 10%;border-radius:3px">
+<h1 style="margin:20px 0 0;font:600 27px/1.1 'Instrument Sans',sans-serif;letter-spacing:-.028em">Simama Ngidi</h1>
+<p style="margin:10px 0 0;font:500 13px/1.5 'Instrument Sans',sans-serif;color:#8fb4dd;letter-spacing:.005em">Actuarial Honours Student<br>Aspiring Actuary</p>
+</div>
+
+<nav style="display:flex;flex-direction:column;gap:2px;font:500 13.5px/1 'Instrument Sans',sans-serif">
+<a href="#objective" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Objective</a>
+<a href="#exemptions" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">ASSA exemptions</a>
+<a href="#experience" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Experience</a>
+<a href="#research" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Research</a>
+<a href="#certificates" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Certificates</a>
+<a href="#education" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Education</a>
+<a href="#capability" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Capability &amp; recognition</a>
+<a href="#contact" style="color:rgba(255,255,255,.72);padding:7px 0;border-top:1px solid rgba(255,255,255,.12);border-bottom:1px solid rgba(255,255,255,.12)" style-hover="color:#fff">Contact</a>
+</nav>
+
+<div style="display:flex;flex-direction:column;gap:11px;font:400 13.5px/1.5 'Instrument Sans',sans-serif">
+<a href="mailto:simamangidi@gmail.com" style="color:#fff" style-hover="color:#8fb4dd">simamangidi@gmail.com</a>
+<a href="https://www.linkedin.com/in/simama-notha-3bb47b293" target="_blank" rel="noopener" style="color:#fff" style-hover="color:#8fb4dd">linkedin.com/in/simama-notha</a>
+<sc-if value="{{ showPhone }}" hint-placeholder-val="{{ false }}"><span style="color:rgba(255,255,255,.82)">067 843 2048</span></sc-if>
+<span style="color:rgba(255,255,255,.55);font:400 13px/1.5 'IBM Plex Mono',monospace">Johannesburg, Gauteng</span>
+</div>
+
+<div style="padding-top:4px;font:400 11.5px/1.5 'IBM Plex Mono',monospace;color:rgba(255,255,255,.45)">References available on request</div>
+</div>
+</aside>
+
+<main>
+<section id="objective" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4">
+<div style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#35618f;margin-bottom:24px">Open to 2027 graduate programmes</div>
+<h2 style="margin:0;font:600 clamp(30px,3.6vw,44px)/1.16 'Instrument Sans',sans-serif;letter-spacing:-.03em;color:#0f1e33;max-width:24ch;text-wrap:pretty">Eight ASSA exemptions secured, three more anticipated this year.</h2>
+<p style="margin:24px 0 0;font:400 clamp(16px,1.5vw,18px)/1.65 'Instrument Sans',sans-serif;color:#464d58;max-width:62ch;text-wrap:pretty">I am completing my BSc Honours in Actuarial Science at the University of the Witwatersrand and am looking for a 2027 graduate programme.</p>
+<p style="margin:18px 0 0;font:400 16px/1.7 'Instrument Sans',sans-serif;color:#5a616b;max-width:62ch;text-wrap:pretty">My interests cover insurance and reinsurance as well as banking, investments and consulting. Every one of them has to put a price on something uncertain, decide how much capital to hold against it, and explain that decision to people who need to act on it. That is the work I want to do, and the work my degree, exemptions and research have prepared me for.</p>
+
+<div style="display:flex;gap:11px;margin-top:32px;flex-wrap:wrap">
+<a href="mailto:simamangidi@gmail.com" style="padding:14px 26px;background:#0f1e33;color:#fff;font:600 14px/1 'Instrument Sans',sans-serif;border-radius:3px" style-hover="background:#35618f">Get in touch</a>
+<a href="uploads/Simama-Ngidi-CV.pdf" download="Simama Ngidi - CV.pdf" style="padding:14px 26px;border:1px solid #d5d5cf;color:#0f1e33;font:600 14px/1 'Instrument Sans',sans-serif;border-radius:3px" style-hover="border-color:#0f1e33">Download CV</a>
+<a href="https://www.linkedin.com/in/simama-notha-3bb47b293" target="_blank" rel="noopener" style="padding:14px 26px;border:1px solid #d5d5cf;color:#0f1e33;font:600 14px/1 'Instrument Sans',sans-serif;border-radius:3px" style-hover="border-color:#0f1e33">View LinkedIn</a>
+</div>
+
+<div data-two="" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:44px;background:#e8e8e4;border:1px solid #e8e8e4;border-radius:3px;overflow:hidden">
+<div style="background:#fafaf8;padding:24px 26px">
+<div style="font:600 34px/1 'Instrument Sans',sans-serif;letter-spacing:-.03em;color:#0f1e33">8</div>
+<div style="margin-top:9px;font:500 11px/1.4 'IBM Plex Mono',monospace;letter-spacing:.11em;text-transform:uppercase;color:#6f757f">ASSA exemptions secured</div>
+</div>
+<div style="background:#fafaf8;padding:24px 26px">
+<div style="font:600 34px/1 'Instrument Sans',sans-serif;letter-spacing:-.03em;color:#0f1e33">1st</div>
+<div style="margin-top:9px;font:500 11px/1.4 'IBM Plex Mono',monospace;letter-spacing:.11em;text-transform:uppercase;color:#6f757f">MiWay hackathon profit leaderboard</div>
+</div>
+<div style="background:#fafaf8;padding:24px 26px">
+<div style="font:600 34px/1 'Instrument Sans',sans-serif;letter-spacing:-.03em;color:#0f1e33">−35%</div>
+<div style="margin-top:9px;font:500 11px/1.4 'IBM Plex Mono',monospace;letter-spacing:.11em;text-transform:uppercase;color:#6f757f">Prediction error, honours research</div>
+</div>
+</div>
+</section>
+
+<section id="exemptions" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4;background:#fafaf8">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:28px">
+<h3 style="margin:0;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">ASSA exemptions</h3>
+<span style="font:600 13.5px/1 'Instrument Sans',sans-serif;color:#35618f">Nine attempted, eight secured</span>
+</div>
+<div data-four="" style="display:grid;grid-template-columns:repeat(4,1fr);gap:11px">
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A111</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Actuarial Statistics</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A112</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Business Economics</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A113</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Business Finance</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A211</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Financial Mathematics</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A212</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Risk Modelling &amp; Survival Analysis</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A213</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Contingencies</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">A214</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Actuarial Economic Modelling</div></div>
+<div style="border:1px solid #e2e2dc;background:#fff;border-radius:3px;padding:18px"><div style="font:500 12px/1 'IBM Plex Mono',monospace;color:#35618f">N111</div><div style="margin-top:10px;font:500 14.5px/1.35 'Instrument Sans',sans-serif;color:#16191d">Foundation Actuarial Professional Practice</div></div>
+</div>
+<div style="margin-top:18px;display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+<span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#6f757f">Anticipated honours exemptions</span>
+<span style="padding:9px 14px;border:1px dashed #aebdd0;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b5482">A311 - Actuarial Risk Management</span>
+<span style="padding:9px 14px;border:1px dashed #aebdd0;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b5482">F103 - General Insurance Principles</span>
+<span style="padding:9px 14px;border:1px dashed #aebdd0;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b5482">F105 - Finance &amp; Investment Principles</span>
+</div>
+</section>
+
+<section id="experience" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4">
+<h3 style="margin:0 0 30px;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">Experience</h3>
+<div style="display:flex;flex-direction:column">
+<div style="display:grid;grid-template-columns:1fr auto;gap:24px;padding:24px 0;border-top:1px solid #ececE8">
+<div>
+<div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+<div style="font:600 18.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">First Place, Profit Leaderboard — MiWay Actuarial Hackathon</div>
+<span style="font:500 10px/1 'IBM Plex Mono',monospace;letter-spacing:.11em;text-transform:uppercase;padding:5px 8px;background:#0f1e33;color:#fff;border-radius:2px">Winner</span>
+</div>
+<p style="margin:10px 0 0;font:400 15.5px/1.65 'Instrument Sans',sans-serif;color:#5a616b;max-width:64ch;text-wrap:pretty">Took first place on the profit leaderboard at an insurer's actuarial hackathon: a time-boxed pricing brief scored on underwriting result rather than on presentation.</p>
+</div>
+<span style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f;padding-top:6px;white-space:nowrap">Jul 2026</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr auto;gap:24px;padding:24px 0;border-top:1px solid #ececE8">
+<div>
+<div style="font:600 18.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">Tutor · University of the Witwatersrand</div>
+<p style="margin:10px 0 0;font:400 15.5px/1.65 'Instrument Sans',sans-serif;color:#5a616b;max-width:64ch;text-wrap:pretty">Tutoring undergraduate actuarial and statistics students. Explaining a result to someone who has not yet met the theory is the same skill as explaining a model's output to a colleague outside the technical team.</p>
+</div>
+<span style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f;padding-top:6px;white-space:nowrap">Feb 2026 —</span>
+</div>
+<div style="display:grid;grid-template-columns:1fr auto;gap:24px;padding:24px 0;border-top:1px solid #ececE8;border-bottom:1px solid #ececE8">
+<div>
+<div style="font:600 18.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">Vacation Work Student · BEIER Group</div>
+<p style="margin:10px 0 0;font:400 15.5px/1.65 'Instrument Sans',sans-serif;color:#5a616b;max-width:64ch;text-wrap:pretty">A vacation placement with a Durban manufacturing group — commercial exposure outside financial services, and a first look at how operational risk shows up in an operating business rather than in a model.</p>
+</div>
+<span style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f;padding-top:6px;white-space:nowrap">Nov — Dec 2025</span>
+</div>
+</div>
+</section>
+
+<section id="research" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4;background:#fafaf8">
+<h3 style="margin:0 0 26px;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">Research</h3>
+<div style="display:flex;flex-direction:column;gap:15px">
+<div style="background:#fff;border:1px solid #e2e2dc;border-left:3px solid #35618f;border-radius:3px;padding:28px 30px">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:18px;flex-wrap:wrap">
+<div style="font:600 20px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;max-width:44ch;text-wrap:pretty">Pricing Real Estate Using Machine Learning &amp; Time Series Models</div>
+<span style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.11em;text-transform:uppercase;color:#6f757f;flex:none">Honours project</span>
+</div>
+<sc-if value="{{ showResearchAbstract }}" hint-placeholder-val="{{ true }}"><p style="margin:14px 0 0;font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#5a616b;max-width:74ch;text-wrap:pretty">Machine learning prices property well but treats every transaction as independent, discarding the market cycles and persistence that housing markets are built on. This study tests whether a hybrid framework fixes that: four models — multiple linear regression, random forest, support vector machine and gradient boosting — fitted to twenty years of one-family dwelling transactions in Brooklyn, New York City, then paired with an ARIMA model applied to their residuals.</p></sc-if>
+<sc-if value="{{ showResearchAbstract }}" hint-placeholder-val="{{ true }}"><p style="margin:14px 0 0;font:400 15.5px/1.7 'Instrument Sans',sans-serif;color:#5a616b;max-width:74ch;text-wrap:pretty">Hybridisation improved every model. Prediction error fell by roughly 35% and average R² rose from 0.37 to 0.63, with Diebold–Mariano tests confirming the gains were statistically significant. The residuals carry real temporal information that the machine learning models threw away — and the same logic applies wherever cross-sectional risk factors and shifting market conditions both drive the answer, premium rating included.</p></sc-if>
+<div data-metrics="" style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:22px;background:#e6e6e0;border:1px solid #e6e6e0;border-radius:3px;overflow:hidden">
+<div style="background:#fafaf8;padding:15px 18px"><div style="font:600 20px/1 'Instrument Sans',sans-serif;letter-spacing:-.02em;color:#0f1e33">≈35%</div><div style="margin-top:7px;font:500 10.5px/1.4 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#6f757f">Lower prediction error</div></div>
+<div style="background:#fafaf8;padding:15px 18px"><div style="font:600 20px/1 'Instrument Sans',sans-serif;letter-spacing:-.02em;color:#0f1e33">0.37 → 0.63</div><div style="margin-top:7px;font:500 10.5px/1.4 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#6f757f">Average R²</div></div>
+<div style="background:#fafaf8;padding:15px 18px"><div style="font:600 20px/1 'Instrument Sans',sans-serif;letter-spacing:-.02em;color:#0f1e33">2006 — 2025</div><div style="margin-top:7px;font:500 10.5px/1.4 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:#6f757f">Transaction data, Brooklyn NYC</div></div>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:20px">
+<a href="uploads/Simama%20Real%20Estate%20Pricing.pdf" target="_blank" rel="noopener" style="padding:11px 18px;background:#0f1e33;color:#fff;font:600 13px/1 'Instrument Sans',sans-serif;border-radius:3px" style-hover="background:#35618f">Read the paper</a>
+<a href="uploads/Simama%20Real%20Estate%20Pricing.pdf" download="Ngidi-Rikhotso-Real-Estate-Pricing-ML-Time-Series.pdf" style="padding:11px 18px;border:1px solid #d5d5cf;color:#0f1e33;font:600 13px/1 'Instrument Sans',sans-serif;border-radius:3px" style-hover="border-color:#0f1e33">Download PDF</a>
+</div>
+<div style="margin-top:20px;padding-top:16px;border-top:1px solid #ececE8;font:400 13px/1.6 'Instrument Sans',sans-serif;color:#6f757f">Co-authored with N. Rikhotso · Supervisor: Eden Gross, PhD, FASSA · University of the Witwatersrand</div>
+</div>
+</div>
+</section>
+
+<section id="certificates" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4">
+<div style="display:flex;align-items:baseline;justify-content:space-between;gap:20px;flex-wrap:wrap;margin-bottom:28px">
+<h3 style="margin:0;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">Certificates</h3>
+<span style="font:600 13.5px/1 'Instrument Sans',sans-serif;color:#35618f">10 certificates · open or download any of them</span>
+</div>
+
+<div style="font:600 16.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;margin-bottom:4px">MiWay Actuarial Hackathon 2026</div>
+<div style="font:400 14.5px/1.55 'Instrument Sans',sans-serif;color:#5a616b;max-width:70ch;margin-bottom:16px;text-wrap:pretty">Issued by MiWay Insurance, 3 July 2026.</div>
+<div style="display:flex;flex-direction:column;margin-bottom:40px">
+<div data-cert="" style="display:grid;grid-template-columns:1fr auto auto;gap:20px;align-items:center;padding:15px 0;border-top:1px solid #ececE8">
+<div>
+<div style="font:500 15.5px/1.4 'Instrument Sans',sans-serif;color:#16191d">First Place — Profit Leaderboard</div>
+<div style="margin-top:3px;font:400 13px/1.4 'IBM Plex Mono',monospace;color:#6f757f">Actuarial Hackathon · Jul 2026</div>
+</div>
+<a href="uploads/Certificates%20Simama/Simama%20-%20Miway%20Hackathon%202026%20Profit%20Certificate.pdf" target="_blank" rel="noopener" style="padding:9px 15px;border:1px solid #c9d4e2;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#2b5482;white-space:nowrap" style-hover="border-color:#35618f">View</a>
+<a href="uploads/Certificates%20Simama/Simama%20-%20Miway%20Hackathon%202026%20Profit%20Certificate.pdf" download="Simama Ngidi - MiWay Hackathon 2026 - First Place Profit Leaderboard.pdf" style="padding:9px 15px;border:1px solid #e2e2dc;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#6f757f;white-space:nowrap" style-hover="color:#0f1e33">Download</a>
+</div>
+<div data-cert="" style="display:grid;grid-template-columns:1fr auto auto;gap:20px;align-items:center;padding:15px 0;border-top:1px solid #ececE8;border-bottom:1px solid #ececE8">
+<div>
+<div style="font:500 15.5px/1.4 'Instrument Sans',sans-serif;color:#16191d">Certificate of Completion</div>
+<div style="margin-top:3px;font:400 13px/1.4 'IBM Plex Mono',monospace;color:#6f757f">Actuarial Hackathon · Jul 2026</div>
+</div>
+<a href="uploads/Certificates%20Simama/Simama%20-%20Miway%202026%20Hackathon%20-%20Certificate%20of%20completion.pdf" target="_blank" rel="noopener" style="padding:9px 15px;border:1px solid #c9d4e2;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#2b5482;white-space:nowrap" style-hover="border-color:#35618f">View</a>
+<a href="uploads/Certificates%20Simama/Simama%20-%20Miway%202026%20Hackathon%20-%20Certificate%20of%20completion.pdf" download="Simama Ngidi - MiWay Actuarial Hackathon 2026 - Completion.pdf" style="padding:9px 15px;border:1px solid #e2e2dc;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#6f757f;white-space:nowrap" style-hover="color:#0f1e33">Download</a>
+</div>
+</div>
+
+<div style="font:600 16.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;margin-bottom:4px">R programming &amp; statistics — DataCamp</div>
+<div style="font:400 14.5px/1.55 'Instrument Sans',sans-serif;color:#5a616b;max-width:70ch;margin-bottom:16px;text-wrap:pretty">Eight courses, 34 hours, completed alongside my degree — the toolkit behind the honours research.</div>
+<div style="display:flex;flex-direction:column">
+<sc-for list="{{ datacamp }}" as="c" hint-placeholder-count="8">
+<div data-cert="" style="display:grid;grid-template-columns:1fr auto auto;gap:20px;align-items:center;padding:15px 0;border-top:1px solid #ececE8">
+<div>
+<div style="font:500 15.5px/1.4 'Instrument Sans',sans-serif;color:#16191d">{{ c.title }}</div>
+<div style="margin-top:3px;font:400 13px/1.4 'IBM Plex Mono',monospace;color:#6f757f">{{ c.meta }}</div>
+</div>
+<a href="{{ c.href }}" target="_blank" rel="noopener" style="padding:9px 15px;border:1px solid #c9d4e2;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#2b5482;white-space:nowrap" style-hover="border-color:#35618f">View</a>
+<a href="{{ c.href }}" download="{{ c.filename }}" style="padding:9px 15px;border:1px solid #e2e2dc;background:#fff;border-radius:3px;font:600 12.5px/1 'Instrument Sans',sans-serif;color:#6f757f;white-space:nowrap" style-hover="color:#0f1e33">Download</a>
+</div>
+</sc-for>
+<div style="border-top:1px solid #ececE8"></div>
+</div>
+</section>
+
+<section id="education" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4">
+<h3 style="margin:0 0 28px;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">Education</h3>
+<div data-two="" style="display:grid;grid-template-columns:1fr 1fr;gap:40px">
+<div style="display:flex;flex-direction:column;gap:24px">
+<div style="padding-left:20px;border-left:2px solid #0f1e33">
+<div style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f">2026 — Present</div>
+<div style="margin-top:9px;font:600 17.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">BSc Honours, Actuarial Science</div>
+<div style="margin-top:4px;font:400 14.5px/1.45 'Instrument Sans',sans-serif;color:#626a75">University of the Witwatersrand</div>
+</div>
+<div style="padding-left:20px;border-left:2px solid #e2e2dc">
+<div style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f">2023 — 2025</div>
+<div style="margin-top:9px;font:600 17.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">BSc, Actuarial Science</div>
+<div style="margin-top:4px;font:400 14.5px/1.45 'Instrument Sans',sans-serif;color:#626a75">University of the Witwatersrand</div>
+</div>
+<div style="padding-left:20px;border-left:2px solid #e2e2dc">
+<div style="font:500 12.5px/1 'IBM Plex Mono',monospace;color:#6f757f">2018 — 2022</div>
+<div style="margin-top:9px;font:600 17.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33">National Senior Certificate</div>
+<div style="margin-top:4px;font:400 14.5px/1.45 'Instrument Sans',sans-serif;color:#626a75">Sithokozile Secondary School, Durban</div>
+</div>
+</div>
+<div style="background:#fafaf8;border:1px solid #e8e8e4;border-radius:3px;padding:26px 28px;align-self:start">
+<div style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.13em;text-transform:uppercase;color:#6f757f;margin-bottom:16px">Current honours subjects</div>
+<div style="display:flex;flex-direction:column;gap:0;font:400 15px/1.4 'Instrument Sans',sans-serif;color:#3c434d">
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Actuarial Liability Management</div>
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Actuarial Marketing &amp; Product Development</div>
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Investment &amp; Asset Management</div>
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Actuarial Practice in General Insurance</div>
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Actuarial Financial Theory and Application</div>
+<div style="padding:11px 0;border-top:1px solid #e6e6e0">Research Project: Actuarial Science</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="capability" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);border-bottom:1px solid #e8e8e4;background:#fafaf8">
+<h3 style="margin:0 0 28px;font:500 12px/1 'IBM Plex Mono',monospace;letter-spacing:.15em;text-transform:uppercase;color:#6f757f">Capability &amp; recognition</h3>
+<div data-two="" style="display:grid;grid-template-columns:1fr 1fr 1.25fr;gap:44px">
+
+<div>
+<div style="font:600 16.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;margin-bottom:16px">Technical</div>
+<div style="display:flex;flex-wrap:wrap;gap:8px">
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">R</span>
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">Python</span>
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">Excel</span>
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">Statistical modelling</span>
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">PowerPoint</span>
+<span style="padding:8px 13px;border:1px solid #dcdcd5;background:#fff;border-radius:3px;font:500 13px/1 'Instrument Sans',sans-serif;color:#2b3038">Word</span>
+</div>
+</div>
+
+<div>
+<div style="font:600 16.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;margin-bottom:16px">Languages</div>
+<div style="display:flex;flex-direction:column;gap:0;font:400 15px/1.4 'Instrument Sans',sans-serif;color:#3c434d">
+<div style="display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-top:1px solid #e6e6e0"><span>Zulu</span><span style="color:#6f757f">Native</span></div>
+<div style="display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-top:1px solid #e6e6e0"><span>English</span><span style="color:#6f757f">Fluent</span></div>
+<div style="display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-top:1px solid #e6e6e0;border-bottom:1px solid #e6e6e0"><span>Spanish</span><span style="color:#6f757f">Basic</span></div>
+</div>
+</div>
+
+<div>
+<div style="font:600 16.5px/1.3 'Instrument Sans',sans-serif;color:#0f1e33;margin-bottom:16px">Scholarships &amp; awards</div>
+<div style="display:flex;flex-direction:column;gap:0;font:400 15px/1.45 'Instrument Sans',sans-serif;color:#3c434d">
+<div style="display:grid;grid-template-columns:1fr auto;gap:16px;padding:11px 0;border-top:1px solid #e6e6e0"><span>Hans Beier Bursary — Beier Group</span><span style="font:500 12.5px/1.4 'IBM Plex Mono',monospace;color:#35618f">Bursary</span></div>
+<div style="display:grid;grid-template-columns:1fr auto;gap:16px;padding:11px 0;border-top:1px solid #e6e6e0"><span>Wits Entrance Scholarship</span><span style="font:500 12.5px/1.4 'IBM Plex Mono',monospace;color:#35618f">2023</span></div>
+<sc-if value="{{ showMatricAchievements }}" hint-placeholder-val="{{ true }}"><div style="display:grid;grid-template-columns:1fr auto;gap:16px;padding:11px 0;border-top:1px solid #e6e6e0"><span>Top 6 Finalist — SA Institute of Physics National Competition</span><span style="font:500 12.5px/1.4 'IBM Plex Mono',monospace;color:#6f757f">2022</span></div></sc-if>
+<sc-if value="{{ showMatricAchievements }}" hint-placeholder-val="{{ true }}"><div style="display:grid;grid-template-columns:1fr auto;gap:16px;padding:11px 0;border-top:1px solid #e6e6e0;border-bottom:1px solid #e6e6e0"><span>eThekwini &amp; Durban West Regional Top Matriculant</span><span style="font:500 12.5px/1.4 'IBM Plex Mono',monospace;color:#6f757f">2022</span></div></sc-if>
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="contact" style="padding:clamp(48px,6vw,76px) clamp(32px,4.4vw,64px);background:#0f1e33;color:#fff">
+<div data-two="" style="display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:end">
+<div>
+<div style="font:500 11px/1 'IBM Plex Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:#8fb4dd;margin-bottom:20px">Contact</div>
+<h2 style="margin:0;font:600 clamp(26px,2.8vw,36px)/1.15 'Instrument Sans',sans-serif;letter-spacing:-.028em;max-width:24ch;text-wrap:pretty">Available for 2027 graduate programmes in insurance, reinsurance, banking, investments and consulting.</h2>
+<p style="margin:16px 0 0;font:400 16px/1.65 'Instrument Sans',sans-serif;color:rgba(255,255,255,.7);max-width:52ch;text-wrap:pretty">Happy to talk about pricing, modelling, or the findings from my honours research.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;font:400 15.5px/1.4 'Instrument Sans',sans-serif">
+<a href="mailto:simamangidi@gmail.com" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.28);padding-bottom:12px" style-hover="color:#8fb4dd">simamangidi@gmail.com</a>
+<a href="https://www.linkedin.com/in/simama-notha-3bb47b293" target="_blank" rel="noopener" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.28);padding-bottom:12px" style-hover="color:#8fb4dd">linkedin.com/in/simama-notha</a>
+<a href="uploads/Simama-Ngidi-CV.pdf" download="Simama Ngidi - CV.pdf" style="color:#fff;border-bottom:1px solid rgba(255,255,255,.28);padding-bottom:12px" style-hover="color:#8fb4dd">Download CV (PDF)</a>
+<sc-if value="{{ showPhone }}" hint-placeholder-val="{{ false }}"><span style="color:rgba(255,255,255,.82);border-bottom:1px solid rgba(255,255,255,.28);padding-bottom:12px">067 843 2048</span></sc-if>
+<span style="color:rgba(255,255,255,.5);font:400 13px/1.5 'IBM Plex Mono',monospace">Johannesburg, Gauteng, South Africa</span>
+</div>
+</div>
+</section>
+</main>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showPhone&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:false,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Privacy&quot;},&quot;showMatricAchievements&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;},&quot;showResearchAbstract&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Content&quot;}}">
+class Component extends DCLogic {
+  renderVals() {
+    const p = this.props || {};
+    const dir = 'uploads/Certificates%20Simama/';
+    const datacamp = [
+      ['Introduction to R', 'Introduction to R.pdf', 'Sep 2023', '4 hrs'],
+      ['Data Manipulation with dplyr', 'Data manipulation with dplyr.pdf', 'Oct 2023', '4 hrs'],
+      ['Introduction to the Tidyverse', 'Introduction to the Tidyverse.pdf', 'Nov 2023', '4 hrs'],
+      ['Foundations of Probability in R', 'Foundations of Probability in R.pdf', 'Nov 2023', '4 hrs'],
+      ['Introduction to Statistics in R', 'Introduction to Statistics in R.pdf', 'Dec 2023', '4 hrs'],
+      ['Intermediate R', 'Intermediate R.pdf', 'Oct 2024', '6 hrs'],
+      ['Sampling in R', 'Sampling in R.pdf', 'Oct 2024', '4 hrs'],
+      ['Introduction to Data Visualization with ggplot2', 'Introduction to Data Visualization with ggplot2.pdf', 'Mar 2025', '4 hrs']
+    ].map(([title, file, date, hrs]) => ({
+      title,
+      meta: 'DataCamp · ' + date + ' · ' + hrs,
+      href: dir + encodeURIComponent(file),
+      filename: 'Simama Ngidi - DataCamp - ' + title + '.pdf'
+    }));
+    return {
+      datacamp,
+      showPhone: p.showPhone ?? false,
+      showMatricAchievements: p.showMatricAchievements ?? true,
+      showResearchAbstract: p.showResearchAbstract ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
